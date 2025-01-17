@@ -1,0 +1,41 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    overflow: auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 23%;
+    text-align: center;
+}
+
+form{
+    display: none;
+    gap: 0.3rem;
+    flex-wrap: wrap;
+}
+
+.addbook{
+    display: block;
+}
+
+input, select{
+    padding: .6rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+}
